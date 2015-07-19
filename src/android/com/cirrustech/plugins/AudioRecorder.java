@@ -20,7 +20,7 @@ public class AudioRecorder extends CordovaPlugin {
   @Override
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {
     outputFile = Environment.getExternalStorageDirectory().
-        getAbsolutePath() + "/NSTURecording.m4a";
+        getAbsolutePath() + "/MyTest/test.m4a";
 
 
     // TODO here you could check if the action equals "record", to distinguish various API calls for you plugin
